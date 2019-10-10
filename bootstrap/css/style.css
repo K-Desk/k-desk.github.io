@@ -1,0 +1,47 @@
+html{
+    position: relative;
+}
+
+body{
+    margin-bottom: 200px;
+}
+.parallax{
+    background: url('../../asset/svg/wave.svg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    
+}
+a{
+    color: black;
+}
+
+.parallax img{
+    border: 2px solid #999;
+}
+.progress{
+    height: 50px;
+    margin: 10px;
+}
+.bg-tosca{
+    background: rgb(48, 185, 172);
+}
+.bg-gray{
+    background: #f0f0f0;
+    color: #555;
+}
+
+footer{
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    
+}
+hr{
+    border: none;
+    height: 1px;
+    width: 75%;
+    background: #888;
+}

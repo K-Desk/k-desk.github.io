@@ -1,0 +1,36 @@
+body{
+    position: relative;
+    margin: 0;
+    background: url('asset/svg/main_wave.svg');
+    width: 100%;
+    background-position: 50% 50%;
+    height: 2160px;
+}
+footer{
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    position: absolute; 
+}
+.rounded{
+    border-radius: 99px !important;
+}
+.rounded:hover{
+    background: #f8fc81;
+
+}
+.row p{
+    line-height: 35px;
+}
+.atas{
+   background: url('asset/img/1.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   z-index: 999;
+   width: 100%;
+   height: 900px;
+   background-attachment: fixed;
+}
+
+
+
